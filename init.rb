@@ -1,3 +1,5 @@
+require_dependency "redmine_mermaid_hook_listener"
+
 Redmine::Plugin.register :redmine_mermaid do
   name "Redmine Mermaid plugin"
   author "Yuya.Nishida. @nishidayuya"
